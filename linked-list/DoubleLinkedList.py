@@ -1,7 +1,7 @@
-from sNode import ListNode
+from dNode import ListNode
 
 
-class SingleLinkedList:
+class DoubleLinkedList:
 
     def __init__(self):
         # initialize list with
@@ -20,6 +20,7 @@ class SingleLinkedList:
             self.head = item
         else:
             self.tail.next = item
+            item.previous = self.tail
 
         self.tail = item
 
@@ -95,6 +96,8 @@ class SingleLinkedList:
                     # if this is the first node (head)
                     if previous_node is not None:
                         previous_node.next = node.next
+                        node.previous = previous_node
+
                     else:
                         self.head = node.next
                         # we don't have to look any further
@@ -113,25 +116,19 @@ if __name__ == '__main__':
 
     node1 = ListNode(15)
     node2 = ListNode(8.2)
-    item3 = "Berlin"
+    node3 = ListNode("Berlin")
     node4 = ListNode(15)
 
-    track = SingleLinkedList()
+    track = DoubleLinkedList()
+    print("track length: %i" % len(track))
 
-    for current_item in [node1, node2, item3, node4]:
-        track.add_list_item(current_item)
+    for current_node in [node1, node2, node3, node4]:
+        track.add_list_item(current_node)
+        print("track length: %i" % len(track))
+        track.output_list()
 
-    i = iter(track)
+    results = track[15]
+    print(results)
 
-    while 1:
-        try:
-            print(next(i).data)
-        except StopIteration:
-            break
-    print(len(track))
-
-    print(track[15])
-
-    del track[8.2]
-
+    del track[4]
     track.output_list()
