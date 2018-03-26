@@ -1,6 +1,0 @@
-Persistent dictionary in python.
-What do we mean by partial persistence? 
-In a partially persistence dictionary, you should be able to go back and look at the data structure how it looked like at a particular time.
-Store all the changes made to the dictionary in a way that they are queryable through methods available on the object. However, we can only update the latest version. This data structure should be able to the following.
-Read a single 'key' or all data.
-Historical Read - Read what was the data for a given timestamp.
