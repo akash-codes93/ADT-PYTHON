@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/partially persistence dictionary/pdict.py" afterPath="$PROJECT_DIR$/partially persistence dictionary/pdict.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -273,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522089802842</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Partially persistent dictionary (update lenght)">
+      <created>1522165239915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522165239915</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -349,7 +355,8 @@
     <MESSAGE value="updated double linked list" />
     <MESSAGE value="updated tree" />
     <MESSAGE value="Partially persistent dictionary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partially persistent dictionary" />
+    <MESSAGE value="Partially persistent dictionary (update lenght)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Partially persistent dictionary (update lenght)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
