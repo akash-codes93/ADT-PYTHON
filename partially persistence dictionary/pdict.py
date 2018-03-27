@@ -18,7 +18,7 @@ class PartialDict(dict):
     # to get the historical read
     def hist_read(self, key, timestamp):
 
-        __length = self.timestamp.get(key, [])
+        __length = len(self.timestamp.get(key, []))
 
         for __counter, __time in enumerate(self.timestamp.get(key, [])):
 
