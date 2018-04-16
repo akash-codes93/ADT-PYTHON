@@ -1,7 +1,10 @@
 # code to convert number to string
 # eg. 100 to One hundred
+# max len of digit is upto 14 which is 1 lakh crore. Beyond this answer will be wrong.
+# further reduction in length may be required.
 
-scale = ['', '', 'hundred ', 'thousand ', 'thousands ', 'lakhs ', 'lakh ', 'crore ', 'crores ']
+
+scale = ['', '', 'hundred ', 'thousand ', 'thousands ', 'lakh ', 'lakhs ', 'crore ', 'crores ']
 
 
 def single(number):
@@ -60,10 +63,15 @@ def get_string(number):
 
 if __name__ == '__main__':
     while 1:
-        n = int(input("Enter a number:"))
-        if n > 0:
-            if len(n) > 14:
-                raise ValueError('Hire Someone for this')
-            print(get_string(n))
-        else:
-            raise StopIteration
+        try:
+            n = int(input("Enter a number:"))
+            if n > 0:
+                if len(str(n)) > 14:
+                    raise ValueError('Number not realstic.')
+                print(get_string(n))
+            else:
+                print('Bye')
+                exit(0)
+                # raise StopIteration
+        except ValueError:
+            print("Input should be Integer.")
