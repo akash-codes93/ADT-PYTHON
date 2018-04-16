@@ -1,4 +1,4 @@
-from datetime import  datetime
+from datetime import datetime
 import time
 
 
@@ -44,7 +44,6 @@ class PartialDict(dict):
                 self.timestamp[key].append(datetime.now())
                 self.val[key].append(values)
 
-
         super().update(__m, **kwargs)
 
 
@@ -59,7 +58,7 @@ if __name__ == '__main__':
     time.sleep(10)
 
     _dict.update({
-        'a' : 2
+        'a': 2
     })
 
     time.sleep(10)
@@ -70,7 +69,7 @@ if __name__ == '__main__':
 
     time.sleep(10)
 
-    print(_dict.hist_read('a' , datetime.now()))
+    print(_dict.hist_read('a', datetime.now()))
 
     print(_dict.timestamp)
     print(_dict.val)
