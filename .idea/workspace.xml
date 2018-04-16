@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/numberSpelling.py" afterPath="$PROJECT_DIR$/numberSpelling.py" />
+      <change beforePath="$PROJECT_DIR$/numberSpelling.py" afterPath="$PROJECT_DIR$/Random/numberSpelling.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,10 +25,10 @@
         </entry>
       </file>
       <file leaf-file-name="numberSpelling.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/numberSpelling.py">
+        <entry file="file://$PROJECT_DIR$/Random/numberSpelling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+            <state relative-caret-position="1260">
+              <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -190,6 +190,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Random" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\akash\PycharmProjects\ADT\Linked-list" />
@@ -305,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523866355951</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Bug fixes and improvements.">
+      <created>1523906404780</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523906404780</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -385,7 +395,8 @@
     <MESSAGE value="Partially persistent dictionary (update length)" />
     <MESSAGE value="Produce Number to spelling." />
     <MESSAGE value="Some minor bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some minor bug fixes" />
+    <MESSAGE value="Bug fixes and improvements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes and improvements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -749,10 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numberSpelling.py">
+    <entry file="file://$PROJECT_DIR$/Random/numberSpelling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        <state relative-caret-position="1260">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
           <folding />
         </state>
       </provider>
