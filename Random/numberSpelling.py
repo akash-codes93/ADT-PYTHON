@@ -67,7 +67,7 @@ if __name__ == '__main__':
             n = int(input("Enter a number:"))
             if n > 0:
                 if len(str(n)) > 14:
-                    raise ValueError('Number not realstic.')
+                    raise ValueError('Number not realistic.')
                 print(get_string(n))
             else:
                 print('Bye')
