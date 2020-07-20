@@ -1,5 +1,5 @@
-from datetime import datetime
 import time
+from datetime import datetime
 
 
 class PartialDict(dict):
@@ -26,9 +26,9 @@ class PartialDict(dict):
                 continue
             else:
 
-                return self.val.get(key,[])[__counter]
+                return self.val.get(key, [])[__counter]
 
-        return self.val.get(key, [])[__length-1]
+        return self.val.get(key, [])[__length - 1]
 
     # to update the value of the dictionary
     def update(self, __m, **kwargs):
@@ -48,7 +48,6 @@ class PartialDict(dict):
 
 
 if __name__ == '__main__':
-
     _dict = PartialDict()
 
     _dict.update({
