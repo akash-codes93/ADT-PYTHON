@@ -8,7 +8,6 @@ def insertion_sort(arr):
 
             # find the right place and replace the element
             if arr[j] > arr[i]:
-                p = 0
                 p = arr[j]
                 arr[j] = arr[i]
                 arr[i] = p
