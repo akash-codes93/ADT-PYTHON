@@ -1,5 +1,6 @@
 from Btree import BinaryTree
 
+
 class BinarySearchTree(BinaryTree):
     def __init__(self, value):
         self.value = value
@@ -21,7 +22,6 @@ class BinarySearchTree(BinaryTree):
         else:
             self.right_child = BinarySearchTree(value)
 
-
     def find_node(self, value):
         if value < self.value and self.left_child:
             return self.left_child.find_node(value)
@@ -29,7 +29,6 @@ class BinarySearchTree(BinaryTree):
             return self.right_child.find_node(value)
 
         return value == self.value
-
 
     def clear_node(self):
         self.value = None
@@ -81,6 +80,7 @@ class BinarySearchTree(BinaryTree):
                 self.right_child.remove_node(self.value, self)
 
             return True
+
 
 if __name__ == '__main__':
     a_node = BinarySearchTree(50)

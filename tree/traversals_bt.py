@@ -64,6 +64,54 @@ class BT:
         else:
             raise StopIteration
 
+    def pre_order(self, node=None):
+
+        if node is None:
+            node = self.head
+
+        if not isinstance(node, Node):
+            raise ValueError('node must be Node type')
+
+        print(node.value)
+
+        if node.left is not None:
+            self.pre_order(node.left)
+
+        if node.right is not None:
+            self.pre_order(node.right)
+
+    def post_order(self, node=None):
+
+        if node is None:
+            node = self.head
+
+        if not isinstance(node, Node):
+            raise ValueError('node must be Node type')
+
+        if node.left is not None:
+            self.post_order(node.left)
+
+        if node.right is not None:
+            self.post_order(node.right)
+
+        print(node.value)
+
+    def in_order(self, node=None):
+
+        if node is None:
+            node = self.head
+
+        if not isinstance(node, Node):
+            raise ValueError('node must be Node type')
+
+        if node.left is not None:
+            self.in_order(node.left)
+
+        print(node.value)
+
+        if node.right is not None:
+            self.in_order(node.right)
+
     def zig_zag(self):
 
         queue = [[self.head], []]
@@ -167,11 +215,12 @@ class BST(BT):
 
 if __name__ == '__main__':
     bt = BT()
-    num = list(range(1, 16))
-    # bt.add_nodes([1, 2, 3, 4, 5, 6, 7])
-    bt.add_nodes(num)
+    # num = list(range(1, 16))
+    bt.add_nodes([1, 2, 3, 4, 5, 6, 7])
+    # bt.add_nodes(num)
+    bt.post_order()
 
-    bt.zig_zag_simpler()
+    # bt.zig_zag_simpler()
     # for each in bt:
     #     print(each.value)
     # print(bt.head.left.value)
