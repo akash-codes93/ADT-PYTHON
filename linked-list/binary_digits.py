@@ -96,6 +96,12 @@ class SingleMiddleList(SingleLinkedList):
     def find_middle(self):
         """
         One pointer will move by one and other by two
+        This code will not work in case of two nodes
+        inp: 1 -> 2
+        out: 2
+        expected: 1
+        ----------------
+        update the issue has been fixed
         :return:
         """
 
@@ -111,7 +117,10 @@ class SingleMiddleList(SingleLinkedList):
             elif travel.next.next is None:
                 """jump by one node"""
                 travel = travel.next
-                travel_prev = travel_prev.next
+
+                if travel != self.head:
+                    """Two cover if the linked list has only two nodes"""
+                    travel_prev = travel_prev.next
             else:
                 """Jump by two node"""
                 travel = travel.next.next
@@ -157,4 +166,4 @@ if __name__ == '__main__':
 
     # binary_digit_to_number()
 
-    middle_number_of_list(2)
+    middle_number_of_list(1)
