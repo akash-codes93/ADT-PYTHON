@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="new problem solved and old code test cases covered">
-      <change afterPath="$PROJECT_DIR$/linked-list/delete_middle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list/sum_eq_zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/drop_duplicates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/binary_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/binary_digits.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598010203881</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new problem solved and old code test cases covered">
+      <created>1598010634733</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598010634733</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -302,14 +307,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="new problem solved and old code test cases covered" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1598010202261">
+    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1598010633340">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1598010202261" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1598010207623">
+    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1598010633340" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1598010636310">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1598010207623" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1598010636310" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
