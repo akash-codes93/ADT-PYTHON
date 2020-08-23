@@ -1,3 +1,8 @@
+"""
+Leave only those elements in a linked list whose value are not eq 0
+"""
+
+
 class Node:
 
     def __init__(self, value, _next=None):

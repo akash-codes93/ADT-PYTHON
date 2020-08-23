@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="new problem solved and old code test cases covered">
-      <change afterPath="$PROJECT_DIR$/linked-list/drop_duplicates.py" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="drop_duplicate code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/binary_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/binary_digits _&amp;_find_middle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/sum_eq_zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/sum_eq_zero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/Btree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/Btree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598010634733</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="drop_duplicate code">
+      <created>1598016710155</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598016710155</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -304,17 +313,18 @@
     <MESSAGE value="new implementation of trees and traversal" />
     <MESSAGE value="new implementations" />
     <MESSAGE value="new problem solved and old code test cases covered" />
-    <option name="LAST_COMMIT_MESSAGE" value="new problem solved and old code test cases covered" />
+    <MESSAGE value="drop_duplicate code" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop_duplicate code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1598010633340">
+    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1598016708694">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1598010633340" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1598010636310">
+    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1598016708694" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1598016712021">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1598010636310" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1598016712021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
