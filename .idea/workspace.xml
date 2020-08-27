@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598168013031</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="linked list new questions">
+      <created>1598462100980</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598462100981</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -322,14 +329,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="linked list new questions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1598168010770">
+    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1598505014800">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1598168010770" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1598168015238">
+    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1598505014800" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1598462102572">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1598168015238" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1598462102572" />
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1598460547050">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
