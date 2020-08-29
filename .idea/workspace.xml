@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="linked list new questions">
+      <change afterPath="$PROJECT_DIR$/linked-list/last_occurence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/pallindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/reverse_in_batch_alternatively.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/rotate_n_times.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
