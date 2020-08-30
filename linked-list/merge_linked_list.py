@@ -1,8 +1,10 @@
 """
-in/p : 10, 20, 30, 40, 50, 60
-k = 4
-o/p : 50, 60, 10, 20, 30, 40
+This code is to show to merge two linked list
+l1: 1 -> 2 -> 3 -> 4
+l2: 2 -> 8 -> 9
+o/p: 1 -> 2 -> 2 -> 8 -> 3 -> 9 -> 4
 """
+
 from typing import Union
 
 
@@ -62,47 +64,42 @@ class SingleLinkedList:
             raise StopIteration
 
 
-def rotate_n_times(head: Node, k: int) -> Union[Node, None]:
-    """
-    Approach: make linked list circular and then point the k-1 node to None
-    :param head:
-    :param k:
-    :return:
-    """
+def merge_lists(l1: Node, l2: Node) -> Union[Node, None]:
 
-    travel = head
+    travel = l1
+    travel_2 = l2
 
-    while travel.next is not None:
-        travel = travel.next
+    if travel is None:
+        return travel_2
+    elif travel_2 is None:
+        return travel
 
-    travel.next = head
+    while (travel is not None) and (travel_2 is not None):
 
-    new_travel = head
+        p = travel.next
+        k = travel_2.next
 
-    while k != 1:
-        new_travel = new_travel.next
-        k -= 1
+        travel.next = travel_2
+        if p is not None:
+            travel_2.next = p
 
-    new_head = new_travel.next
+        travel = p
+        travel_2 = k
 
-    new_travel.next = None
-
-    return new_head
+    return l1
 
 
 def driver():
+    l1 = SingleLinkedList()
+    l2 = SingleLinkedList()
 
-    ll = SingleLinkedList()
+    l1.add_nodes([1])
+    l2.add_nodes([5, 6, 7, 8])
 
-    ll.add_nodes([10, 20, 30])
+    merge_lists(l1.head, l2.head)
 
-    new_head = rotate_n_times(ll.head, 1)
-    ll.head = new_head
-
-    print("o/p: ", end=' ')
-
-    for node in ll:
-        print(node.value, end='->')
+    for node in l1:
+        print(node.value, end=' -> ')
 
 
 if __name__ == '__main__':
