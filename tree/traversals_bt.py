@@ -218,10 +218,10 @@ if __name__ == '__main__':
     # num = list(range(1, 16))
     bt.add_nodes([1, 2, 3, 4, 5, 6, 7])
     # bt.add_nodes(num)
-    bt.post_order()
+    # bt.post_order()
 
     # bt.zig_zag_simpler()
-    # for each in bt:
-    #     print(each.value)
+    for each in bt:
+        print(each.value)
     # print(bt.head.left.value)
     # print(bt.head.right.value)
