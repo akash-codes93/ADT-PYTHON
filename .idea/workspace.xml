@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="new questions">
-      <change afterPath="$PROJECT_DIR$/tree/lac.py" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="left view of the tree">
+      <change afterPath="$PROJECT_DIR$/tree/mirror.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/traversals_bt.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/traversals_bt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +26,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1gN3CUlvohrwa7m5YSYCMiFpga4" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -287,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598794747048</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="left view of the tree">
+      <created>1600143422105</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1600143422105</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,20 +347,23 @@
     <MESSAGE value="drop_duplicate code" />
     <MESSAGE value="linked list new questions" />
     <MESSAGE value="new questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="new questions" />
+    <MESSAGE value="left view of the tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="left view of the tree" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1598794744698">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="377" y="0" key="CommitChangelistDialog2" timestamp="1600143420165">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state x="377" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1600143420165" />
     <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1598794744698" />
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1598867587227">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1598867587227" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1598794761966">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="350" y="172" key="Vcs.Push.Dialog.v2" timestamp="1600143426304">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state x="350" y="172" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1600143426304" />
     <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1598794761966" />
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1598460547050">
       <screen x="0" y="0" width="1680" height="1010" />
