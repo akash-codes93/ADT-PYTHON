@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="symmetry and mirror tree">
-      <change afterPath="$PROJECT_DIR$/tree/bottom_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/neighbour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/top_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="top/bottom view and neighbour" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601735298515</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="top/bottom view and neighbour">
+      <created>1601819718946</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601819718946</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,27 +360,32 @@
     <MESSAGE value="new questions" />
     <MESSAGE value="left view of the tree" />
     <MESSAGE value="symmetry and mirror tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="symmetry and mirror tree" />
+    <MESSAGE value="top/bottom view and neighbour" />
+    <option name="LAST_COMMIT_MESSAGE" value="top/bottom view and neighbour" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="578" y="329" key="#Notifications" timestamp="1601819858924">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="578" y="329" key="#Notifications/0.0.1680.1010@0.0.1680.1010" timestamp="1601819858924" />
     <state x="520" y="241" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601791749376">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="520" y="241" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1601791749376" />
-    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1601735296166">
+    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1601819716615">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="377" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1600143420165" />
-    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1601735296166" />
+    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1601819716615" />
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1598867587227">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1598867587227" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1601735430385">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1601819721257">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="350" y="172" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1600143426304" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1601735430385" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1601819721257" />
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1598460547050">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
