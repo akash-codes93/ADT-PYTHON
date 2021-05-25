@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="sum tree and complete bt">
+      <change beforePath="$PROJECT_DIR$/.idea/ADT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +51,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.." />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -379,34 +383,6 @@
     <MESSAGE value="top/bottom view and neighbour" />
     <MESSAGE value="sum tree and complete bt" />
     <option name="LAST_COMMIT_MESSAGE" value="sum tree and complete bt" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="578" y="329" key="#Notifications" timestamp="1601819858924">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="578" y="329" key="#Notifications/0.0.1680.1010@0.0.1680.1010" timestamp="1601819858924" />
-    <state x="520" y="241" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601791749376">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="520" y="241" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1601791749376" />
-    <state x="466" y="75" key="CommitChangelistDialog2" timestamp="1601979913728">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="377" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1600143420165" />
-    <state x="466" y="75" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1601979913728" />
-    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1598867587227">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1598867587227" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1601979923625">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="350" y="172" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1600143426304" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1601979923625" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1598460547050">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1598460547050" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
