@@ -21,8 +21,11 @@ class Solution:
     def get_association(self, string, pattern, p, mapping):
 
         if p == len(pattern) - 1:
-            if pattern[p] in mapping and string == mapping[pattern[p]]:
-                print(mapping)
+            if pattern[p] in mapping:
+                if string == mapping[pattern[p]]:
+                    print(mapping)
+            else:
+                mapping[pattern[p]] = string
             return
 
         if pattern[p] in mapping:
@@ -39,4 +42,11 @@ class Solution:
             mapping.pop(pattern[p])
 
 
-Solution().get_association("NJGMNJ", "GfG", 0, {})
+# Solution().get_association("akashisakash", "aia", 0, {})
+
+'''
+python -c " 
+from pattern_matching import Solution 
+Solution().get_association('akashisakash', 'aia', 0, {})
+"
+'''
