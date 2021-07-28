@@ -1,7 +1,7 @@
 """
 code to find out is tree complete or not
 """
-from typing import Union
+from typing import Optional
 
 
 class Node:
@@ -19,7 +19,7 @@ class Node:
         self.right = right
 
 
-def is_complete_tree(node: Union[Node, None]) -> bool:
+def is_complete_tree(node: Optional[Node, None]) -> bool:
     queue = [node]
 
     flag = False

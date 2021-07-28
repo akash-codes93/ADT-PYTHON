@@ -68,5 +68,3 @@ if __name__ == '__main__':
     print("Following is Breadth First Traversal"
           " (starting from vertex 2)")
     g.BFS(2)
-
-    g.akash()

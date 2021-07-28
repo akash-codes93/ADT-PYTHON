@@ -49,4 +49,4 @@ class Solution:
 
 
 # Solution().trigger(4)
-Solution().sum_to_n_([], 4)
+Solution().sum_to_n_([], 5)

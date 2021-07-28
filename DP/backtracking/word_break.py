@@ -10,8 +10,8 @@ Output: i like sam sung mobile
         i like samsung mobile
 """
 
+# ######  solved own  ################# #
 
-#######solved own##################
 
 class Solution:
 

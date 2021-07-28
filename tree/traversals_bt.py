@@ -65,6 +65,11 @@ class BT:
             raise StopIteration
 
     def pre_order(self, node=None):
+        """
+        root -> left -> right
+        :param node:
+        :return:
+        """
 
         if node is None:
             node = self.head
@@ -81,6 +86,11 @@ class BT:
             self.pre_order(node.right)
 
     def post_order(self, node=None):
+        """
+        left -> right -> node
+        :param node:
+        :return:
+        """
 
         if node is None:
             node = self.head
@@ -97,7 +107,11 @@ class BT:
         print(node.value)
 
     def in_order(self, node=None):
-
+        """
+        left - > root -> right
+        :param node:
+        :return:
+        """
         if node is None:
             node = self.head
 
