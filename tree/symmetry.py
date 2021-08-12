@@ -1,4 +1,5 @@
 """
+@url: https://leetcode.com/problems/symmetric-tree/
 Check if a tree is symmetrical or not
 """
 
@@ -80,8 +81,14 @@ def check_symmetry(left_node, right_node):
     :return:
     """
 
+    if (right_node and not left_node) or (left_node and not right_node):
+        return False
+
     if left_node is None and right_node is None:
         return True
+
+    if left_node.val != right_node.val:
+        return False
 
     if (left_node.left is None and right_node.right is not None) or (
             left_node.left is not None and right_node.right is None):

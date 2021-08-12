@@ -1,4 +1,5 @@
 """
+@url: https://leetcode.com/problems/subsets/
 Generate the power set of a given set
 
 S{{}, {x}, {y}, {z}, {x, y}, {x, z}, {y, z}, {x, y, z}}

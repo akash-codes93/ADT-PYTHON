@@ -19,6 +19,21 @@ class Solution:
     #
     #     result = ["" for _ in range(0, divisions)]
 
+    def get_valid_sentences2(self, string, dictionary, output):
+        """better approach"""
+        if not string:
+            print(output)
+            return
+
+        for i in range(len(string)):
+            _str = string[:i+1]
+            res_str = string[i+1:]
+
+            if _str in dictionary:
+                output.append(_str)
+                self.get_valid_sentences2(res_str, dictionary, output)
+                output.pop()
+
     def get_valid_sentences(self, string: str, dictionary: List[str]) -> List[List[str]]:
         output = []
         result = ""
@@ -51,4 +66,6 @@ class Solution:
 
 
 # print(Solution().get_valid_sentences("catsanddog", ["cat", "cats", "dog", "and", "sand"]))
-print(Solution().words_spelled_periodic("cacaneni", ["ca", "ni", "ne", "caca"]))
+# print(Solution().get_valid_sentences2("catsanddog", ["cat", "cats", "dog", "and", "sand"], []))
+print(Solution().get_valid_sentences2("cacaneni", ["ca", "ni", "ne", "caca"], []))
+# print(Solution().words_spelled_periodic("cacaneni", ["ca", "ni", "ne", "caca"]))

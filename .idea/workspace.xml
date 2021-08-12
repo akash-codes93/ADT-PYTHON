@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="sum tree and complete bt">
-      <change beforePath="$PROJECT_DIR$/.idea/ADT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADT.iml" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="2-D array questions">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/backtracking/combination_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/backtracking/combination_using_1_n_2s.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/backtracking/letter_comb_phone_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/backtracking/word_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/longest_non_rep_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/searchRange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/bellmanford.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/bfs_adjacency_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/dfs_adjacency_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/network_time_delay_dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/time_to_inform_emp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/monarch_design.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partially persistence dictionary/LRUCache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/kth_largest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/minimum_brackets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/lac_leetcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/trie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/backtracking/find_word_in_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/backtracking/find_word_in_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/recursion/generate_all_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/generate_all_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/recursion/powerset.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/powerset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/task_ordering.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/task_ordering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/symmetry.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/symmetry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Api Template" />
+        <option value="Freeze Requirements File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -21,6 +51,26 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/graph/bellmanford.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/heap/priorityQueue.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/network_time_delay_dijkstra.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sorting/quick_sort.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/array/searchRange.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/no_of_islands.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/bfs_2_d_array.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/array/anagrams.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sorting/heap_sort.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/dfs_adjacency_list.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -51,27 +101,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultApiTemplateProperty" value="Api Template" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DP/dynamic_programming" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON\linked-list" />
-      <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON" />
-      <recent name="$PROJECT_DIR$/Random" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DP/dynamic_programming" />
       <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON\tree" />
       <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON\graph" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\akash\PycharmProjects\ADT\Linked-list" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/graph" />
+      <recent name="$PROJECT_DIR$/binary" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON\linked-list" />
+      <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="flatten_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.combination_sum">
+    <configuration name="combination_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +138,95 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linked-list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linked-list/flatten_linked_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/combination_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_all_password" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/recursion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/recursion/generate_all_password.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="letter_comb_phone_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/letter_comb_phone_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="powerset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/recursion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/recursion/powerset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="word_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/word_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flatten_linked_list" />
+        <item itemvalue="Python.combination_sum" />
+        <item itemvalue="Python.word_search" />
+        <item itemvalue="Python.letter_comb_phone_number" />
+        <item itemvalue="Python.powerset" />
+        <item itemvalue="Python.generate_all_password" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +467,42 @@
       <option name="project" value="LOCAL" />
       <updated>1601979915312</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="added backtracking questions">
+      <created>1621938628474</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1621938628474</updated>
+    </task>
+    <task id="LOCAL-00032" summary="More backtracking questions">
+      <created>1622275546474</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1622275546475</updated>
+    </task>
+    <task id="LOCAL-00033" summary="able to solve hard geeks questions">
+      <created>1622304077352</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1622304077352</updated>
+    </task>
+    <task id="LOCAL-00034" summary="new questions">
+      <created>1627500117333</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1627500117333</updated>
+    </task>
+    <task id="LOCAL-00035" summary="2-D array questions">
+      <created>1627733975763</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1627733975763</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,12 +559,16 @@
     <MESSAGE value="new problem solved and old code test cases covered" />
     <MESSAGE value="drop_duplicate code" />
     <MESSAGE value="linked list new questions" />
-    <MESSAGE value="new questions" />
     <MESSAGE value="left view of the tree" />
     <MESSAGE value="symmetry and mirror tree" />
     <MESSAGE value="top/bottom view and neighbour" />
     <MESSAGE value="sum tree and complete bt" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum tree and complete bt" />
+    <MESSAGE value="added backtracking questions" />
+    <MESSAGE value="More backtracking questions" />
+    <MESSAGE value="able to solve hard geeks questions" />
+    <MESSAGE value="new questions" />
+    <MESSAGE value="2-D array questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-D array questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +580,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="masterDetails">
     <states>

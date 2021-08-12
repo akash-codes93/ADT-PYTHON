@@ -1,3 +1,7 @@
+"""
+@url: https://leetcode.com/problems/course-schedule/submissions/
+"""
+
 from itertools import permutations
 from collections import defaultdict
 
@@ -93,5 +97,3 @@ Time complexity: O(V + E)
 
 if __name__ == '__main__':
     main()
-
-from contextlib import suppress, closing
