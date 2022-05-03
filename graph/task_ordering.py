@@ -71,7 +71,7 @@ in a directed graph.
 Only a DAG (directed acyclic graph) have a topological ordering.
 There can be different topological ordering for same DAG.
 Kahn's Algorithm:
-Start removing nodes from the from the graph which has no dependencies (meaning no edges into that node) and add them
+Start removing nodes from the graph which has no dependencies (meaning no edges into that node) and add them
 to the topological ordering.
 Additional info to execute the algo:
 - Incoming degree of each node

@@ -159,7 +159,7 @@ class BT:
             # print('k - ', k)
             # print('total n - ', pow(2, n))
 
-            if k >= pow(2, n+1):
+            if k >= pow(2, n + 1):
                 n = n + 1
                 queue.append([])
                 k = 0
