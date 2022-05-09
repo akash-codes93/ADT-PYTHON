@@ -4,35 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="2-D array questions">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/backtracking/combination_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/backtracking/combination_using_1_n_2s.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/backtracking/letter_comb_phone_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/backtracking/word_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/anagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/longest_non_rep_subsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/searchRange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/bellmanford.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/bfs_adjacency_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/dfs_adjacency_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/network_time_delay_dijkstra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/time_to_inform_emp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/monarch_design.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partially persistence dictionary/LRUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/kth_largest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/minimum_brackets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/lac_leetcode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/trie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/boatToSavePeople.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/max_twin_sum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/mergeStringIndependently.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/minSwaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/minimized_maximum_pair_sum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/partitionLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/partition_to_pivot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/rearrange_by_sign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/reverseWordsIII.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/reverse_prefix_of_word.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/two_pointer/sort_by_parity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/backtracking/find_word_in_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/backtracking/find_word_in_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/recursion/generate_all_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/generate_all_password.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/recursion/powerset.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/powerset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/task_ordering.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/task_ordering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/symmetry.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/symmetry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +30,7 @@
         <option value="Api Template" />
         <option value="Freeze Requirements File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,22 +47,25 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/graph/bellmanford.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/heap/priorityQueue.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/graph/network_time_delay_dijkstra.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sorting/quick_sort.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/array/searchRange.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/graph/no_of_islands.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/graph/bfs_2_d_array.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/array/anagrams.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sorting/heap_sort.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/array/searchRange.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/bellmanford.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/bfs_2_d_array.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/graph/dfs_adjacency_list.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/network_time_delay_dijkstra.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/graph/no_of_islands.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/heap/priorityQueue.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sorting/heap_sort.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sorting/quick_sort.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1gN3CUlvohrwa7m5YSYCMiFpga4" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -100,19 +89,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultApiTemplateProperty" value="Api Template" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TF_FMT" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DP/dynamic_programming" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TF_FMT": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/olx/Downloads/personal/ADT-PYTHON",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DP/dynamic_programming" />
@@ -122,126 +110,46 @@
       <recent name="C:\Users\akash\PycharmProjects\ADT\Linked-list" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/two_pointer" />
       <recent name="$PROJECT_DIR$/graph" />
       <recent name="$PROJECT_DIR$/binary" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON\linked-list" />
-      <recent name="C:\Users\akash.gupta\Downloads\git_tut\demo1\cl3\ADT-PYTHON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.combination_sum">
-    <configuration name="combination_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/combination_sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager" selected="Node.js.max_twin_sum.js">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node">
       <method v="2" />
     </configuration>
-    <configuration name="generate_all_password" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/recursion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/recursion/generate_all_password.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="max_twin_sum.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/two_pointer/max_twin_sum.js" working-dir="$PROJECT_DIR$/leetcode/two_pointer">
       <method v="2" />
     </configuration>
-    <configuration name="letter_comb_phone_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/letter_comb_phone_number.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="mergeStringIndependently.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/two_pointer/mergeStringIndependently.js" working-dir="$PROJECT_DIR$/leetcode/two_pointer">
       <method v="2" />
     </configuration>
-    <configuration name="powerset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/recursion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/recursion/powerset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="minSwaps.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/two_pointer/minSwaps.js" working-dir="$PROJECT_DIR$/leetcode/two_pointer">
       <method v="2" />
     </configuration>
-    <configuration name="word_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/word_search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="rearrange_by_sign.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/two_pointer/rearrange_by_sign.js" working-dir="$PROJECT_DIR$/leetcode/two_pointer">
       <method v="2" />
     </configuration>
+    <configuration name="sort_by_parity.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/two_pointer/sort_by_parity.js" working-dir="$PROJECT_DIR$/leetcode/two_pointer">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.max_twin_sum.js" />
+      <item itemvalue="Node.js.mergeStringIndependently.js" />
+      <item itemvalue="Node.js.minSwaps.js" />
+      <item itemvalue="Node.js.rearrange_by_sign.js" />
+      <item itemvalue="Node.js.sort_by_parity.js" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.combination_sum" />
-        <item itemvalue="Python.word_search" />
-        <item itemvalue="Python.letter_comb_phone_number" />
-        <item itemvalue="Python.powerset" />
-        <item itemvalue="Python.generate_all_password" />
+        <item itemvalue="Node.js.max_twin_sum.js" />
+        <item itemvalue="Node.js.mergeStringIndependently.js" />
+        <item itemvalue="Node.js.minSwaps.js" />
+        <item itemvalue="Node.js.sort_by_parity.js" />
+        <item itemvalue="Node.js.rearrange_by_sign.js" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511102923743</updated>
+      <workItem from="1651733212987" duration="29576000" />
     </task>
     <task id="LOCAL-00001" summary="updated double linked list">
       <created>1511365759201</created>
@@ -502,21 +411,25 @@
       <option name="project" value="LOCAL" />
       <updated>1627733975763</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="leetcode">
+      <created>1628790896643</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1628790896643</updated>
+    </task>
+    <task id="LOCAL-00037" summary="leetcode">
+      <created>1651563733780</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1651563733780</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -542,7 +455,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated double linked list" />
@@ -568,18 +480,8 @@
     <MESSAGE value="able to solve hard geeks questions" />
     <MESSAGE value="new questions" />
     <MESSAGE value="2-D array questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-D array questions" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
