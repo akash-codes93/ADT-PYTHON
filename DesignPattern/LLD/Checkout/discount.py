@@ -2,6 +2,7 @@ import abc
 from typing import Type
 
 from product import *
+from dto import DiscountItem
 
 
 class Discount(abc.ABC):
@@ -14,7 +15,6 @@ class Discount(abc.ABC):
 
 class BOGO(Discount):
     name = 'BOGO'
-    price = -Coffee.price
 
     def apply_discount(self, products):
         total_coffee = 0
@@ -22,7 +22,7 @@ class BOGO(Discount):
             if product.code == Coffee.code:
                 total_coffee += 1
                 if total_coffee % 2 == 0:
-                    product.discounts.append(self)
+                    product.add_discount(DiscountItem(self.name, -Coffee.price))
 
 
 class APPL(Discount):
@@ -38,7 +38,7 @@ class APPL(Discount):
         if total_apples >= 3:
             for product in products:
                 if product.code == Apples.code:
-                    product.discounts.append(self)
+                    product.add_discount(DiscountItem(self.name, -Apples.price + 4.5))
 
 
 class CHMK(Discount):
@@ -53,13 +53,24 @@ class CHMK(Discount):
 
         for product in products:
             if product.code == Milk.code and total_chai:
-                product.discounts.append(self)
+                product.add_discount(DiscountItem(self.name, -Milk.price))
                 total_chai -= 1
 
 
-#
-# class APOM(Discount):
-#     name = 'APOM'
+class APOM(Discount):
+    name = 'APOM'
+
+    def apply_discount(self, products):
+        oat_meal_exists = False
+        for product in products:
+            if product.code == Oatmeal.code:
+                oat_meal_exists = True
+                break
+
+        if oat_meal_exists:
+            for product in products:
+                if product.code == Apples.code:
+                    product.add_discount(DiscountItem(self.name, -(product.total_product_price()/2)))
 
 
 class Repository:
@@ -83,3 +94,4 @@ discount_repository = Repository()
 discount_repository.register_discount(BOGO)
 discount_repository.register_discount(CHMK)
 discount_repository.register_discount(APPL)
+discount_repository.register_discount(APOM)

@@ -23,7 +23,7 @@ class Cart:
         for item in self.products:
             total += item.price
 
-            for discount in item.discounts:
+            for discount in item.product_discounts:
                 total += discount.price
 
         return total
@@ -34,11 +34,10 @@ class Cart:
 
         print("Item" + " " * HEADER_SPACES + 'Price')
         print("----" + " " * HEADER_SPACES + '-----')
-        # print(self.item_list)
         for product in self.products:
 
             print(product.code + " " * SPACES + str(product.price))
-            for discount in product.discounts:
+            for discount in product.product_discounts:
                 print(" " * PRE_PROMO_SPACES + discount.name + " " * POST_PROMO_SPACES + str(discount.price))
 
         print("--------------------------")
@@ -58,4 +57,3 @@ for index, line in enumerate(lines):
         cart.add_product(_item)
     cart.checkout()
     print("\n")
-    break

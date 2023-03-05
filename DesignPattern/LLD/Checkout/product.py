@@ -1,13 +1,51 @@
 from typing import Type
 
 
+class ProductDiscounts:
+
+    def __init__(self):
+        self.n = None
+        self._discounts = []
+
+    def add_discount(self, discount_item):
+        self._discounts.append(discount_item)
+
+    def __iter__(self):
+        self.n = 0
+        return self
+
+    def __next__(self):
+        if self.n < len(self._discounts):
+            out = self._discounts[self.n]
+            self.n += 1
+            return out
+        else:
+            raise StopIteration
+
+    @property
+    def total_discount(self):
+        total = 0
+        for discount in self:
+            total -= discount.price
+        return total
+
+    def get_discount(self):
+        return self.total_discount
+
+
 class Product:
     name = None
     code = None
     price = 0
 
     def __init__(self):
-        self.discounts = []
+        self.product_discounts = ProductDiscounts()
+
+    def add_discount(self, discount_item):
+        self.product_discounts.add_discount(discount_item)
+
+    def total_product_price(self):
+        return self.price - self.product_discounts.get_discount()
 
 
 # chai = Product("Chai", "CH1", 3.11)
