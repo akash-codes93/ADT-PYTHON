@@ -132,7 +132,7 @@ class TestSuite(unittest.TestCase):
         transfer.undo()
         print('ba1:', ba1, 'ba2:', ba2)
 
-    def test_better_tranfer(self):
+    def test_better_transfer(self):
         ba1 = BankAccount(100)
         ba2 = BankAccount()
 

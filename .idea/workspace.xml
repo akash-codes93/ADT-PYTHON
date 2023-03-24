@@ -4,120 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="design pattern">
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Composite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Decorator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Facade/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Factories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Flyweight/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Iterator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Mediator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Memento/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Observer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Observer/property_dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Prototype/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Proxy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Singleton/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/State/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Strategy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Strategy/exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Strategy/strategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Template/exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Template/template_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/SplitWise/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/bowling/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/meeting_room/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/rideSharingApplication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ADT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="formatted">
+      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Visitor/classic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Visitor/exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Visitor/intrusive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Visitor/reflective.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/fb_comment/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Adapter/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Adapter/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Adapter/no_caching.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Adapter/no_caching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Bridge/bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Bridge/bridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Bridge/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Bridge/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Builder[Gamma]/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Builder[Gamma]/builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Builder[Gamma]/builder_facets.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Builder[Gamma]/builder_facets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Builder[Gamma]/builder_inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Builder[Gamma]/builder_inheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Builder[Gamma]/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Builder[Gamma]/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/ChainOfResponsibility/broker_chain.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/ChainOfResponsibility/broker_chain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/ChainOfResponsibility/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/ChainOfResponsibility/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/ChainOfResponsibility/method_chain.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/ChainOfResponsibility/method_chain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Command/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Command/command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Command/composite_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Command/composite_command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Command/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Command/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Composite/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Composite/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Composite/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Composite/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Composite/geometric_shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Composite/geometric_shapes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Composite/neural_networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Composite/neural_networks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Decorator/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Decorator/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Decorator/oop_decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Decorator/oop_decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Facade/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Facade/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Facade/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Facade/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Factories/abstract_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Factories/abstract_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Factories/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Factories/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Factories/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Factories/factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Flyweight/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Flyweight/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Flyweight/text_formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Flyweight/text_formatting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Flyweight/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Flyweight/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Iterator/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Iterator/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Iterator/tree_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Iterator/tree_traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/discount.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/discount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/dto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Checkout/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/JiraSystem/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/JiraSystem/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/JiraSystem/sprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/JiraSystem/sprint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/JiraSystem/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/JiraSystem/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/JiraSystem/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/JiraSystem/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/Snakes&amp;Ladder/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Adapter/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/bowling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Bridge/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/bowling/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/bowling/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/meeting_room/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Builder[Gamma]/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/meeting_room/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/meeting_room/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/rideSharingApplication/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/ChainOfResponsibility/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/LLD/rideSharingApplication/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/rideSharingApplication/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Mediator/chat_room.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Mediator/chat_room.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Mediator/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Mediator/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Mediator/mediator_with_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Mediator/mediator_with_events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Memento/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Memento/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Memento/memento.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Memento/memento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Memento/undo_redo.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Memento/undo_redo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Observer/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Observer/events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Observer/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Observer/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Observer/property_dependencies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Observer/property_observers.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Observer/property_observers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Prototype/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Prototype/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Prototype/prototype.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Prototype/prototype.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Prototype/prototype_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Prototype/prototype_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Proxy/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Proxy/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Proxy/protection_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Proxy/protection_proxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Proxy/virtual_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Proxy/virtual_proxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/SOLID/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/dip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/SOLID/isp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/isp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/SOLID/lsp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/lsp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/SOLID/ocp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/ocp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/SOLID/srp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/srp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Singleton/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Singleton/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Singleton/singleton_allocator.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Singleton/singleton_allocator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Singleton/singleton_decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Singleton/singleton_decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Singleton/singleton_metaclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Singleton/singleton_metaclass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Singleton/singleton_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Singleton/singleton_testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/State/classic.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/State/classic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/State/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/State/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/State/handmade.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/State/handmade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/State/switch_based.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/State/switch_based.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Command/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD/DesignPatterns/Command/composite_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Command/composite_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD/DesignPatterns/Prototype/prototype_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Prototype/prototype_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,23 +91,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/olx/Downloads/personal/ADT-PYTHON/LLD/DesignPatterns/Template",
+    "last_opened_file_path": "/Users/olx/Downloads/personal/ADT-PYTHON/LLD/DesignPatterns/Visitor",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LLD/DesignPatterns/Visitor" />
       <recent name="$PROJECT_DIR$/LLD/DesignPatterns/Template" />
       <recent name="$PROJECT_DIR$/DesignPattern/Strategy" />
       <recent name="$PROJECT_DIR$/DesignPattern/State" />
       <recent name="$PROJECT_DIR$/DesignPattern/Observer" />
-      <recent name="$PROJECT_DIR$/DesignPattern/Memento" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DesignPattern/Patterns" />
@@ -221,29 +117,8 @@
       <recent name="$PROJECT_DIR$/DesignPattern/Proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node">
-      <method v="2" />
-    </configuration>
-    <configuration name="exercise (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DesignPattern/Mediator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DesignPattern/Mediator/exercise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="exercise (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -309,6 +184,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems/fb_comment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/fb_comment/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.exercise (2)" />
         <item itemvalue="Python.exercise" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.exercise (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679342243707</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="new code and changes">
+      <created>1679558678792</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679558678792</updated>
+    </task>
+    <task id="LOCAL-00044" summary="formatted">
+      <created>1679562885639</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562885639</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,8 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated tree" />
-    <MESSAGE value="Partially persistent dictionary" />
     <MESSAGE value="Partially persistent dictionary (update lenght)" />
     <MESSAGE value="Partially persistent dictionary (update length)" />
     <MESSAGE value="Produce Number to spelling." />
@@ -708,7 +616,9 @@
     <MESSAGE value="leetcode" />
     <MESSAGE value="leetcode two pointers" />
     <MESSAGE value="design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="design pattern" />
+    <MESSAGE value="new code and changes" />
+    <MESSAGE value="formatted" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

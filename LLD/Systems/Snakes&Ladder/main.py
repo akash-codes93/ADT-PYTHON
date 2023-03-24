@@ -95,7 +95,7 @@ class BoardElement:
 class Snake(BoardElement):
 
     def is_valid(self, start, end):
-        if start < end :
+        if start < end:
             return False
         return True
 
