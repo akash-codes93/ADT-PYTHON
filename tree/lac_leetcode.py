@@ -28,7 +28,7 @@ class Solution:
 
         return path
 
-    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+    def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
             path_to_p = self.path_to_node(root, p, [])
             path_to_q = self.path_to_node(root, q, [])
 

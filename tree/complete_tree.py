@@ -2,6 +2,7 @@
 @url: https://leetcode.com/problems/count-complete-tree-nodes/
 no. of nodes in a tree of height h
 2^(h) -1
+No. of node at a level = 2^(h-1)
 """
 import math
 
@@ -52,13 +53,13 @@ class Solution:
         if height == 1:
             return 1
 
-        total_nodes = 2 ** (height - 1) - 1
+        total_nodes = 2 ** (height - 1)
         left = 0
-        right = total_nodes
+        right = total_nodes - 1
 
         while left < right:
 
-            mid = math.ceil((left + right) / 2)
+            mid = math.ceil((left + right) / 2)  # ceil because we need upper value which will lead to wrong calculation
 
             if self.check_node_exists(mid, height, root):
                 left = mid

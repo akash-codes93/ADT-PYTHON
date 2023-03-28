@@ -234,8 +234,8 @@ if __name__ == '__main__':
     # bt.add_nodes(num)
     # bt.post_order()
 
-    # bt.zig_zag_simpler()
-    for each in bt:
-        print(each.value)
+    bt.zig_zag_simpler()
+    # for each in bt:
+    #     print(each.value)
     # print(bt.head.left.value)
     # print(bt.head.right.value)
