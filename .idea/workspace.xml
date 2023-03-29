@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="One system and last behavioural pattern">
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/JiraSystem/Problem+Statement (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder/Problem+Statement (3).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/SplitWise/Problem+Statement (4).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/TextEditor/Problem+Statement.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/TextEditor/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/bowling/Problem+Statement (2).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/employeeSystem/Problem+Statement (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/employeeSystem/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/fb_comment/Problem+Statement (5).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/meeting_room/Problem+Statement.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/rideSharingApplication/MC+Round+-+Ride+Sharing+App.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/salesManagement/Problem+Statement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/salesManagement/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/floodfill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Tree/543_diameter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Tree/958_is_tree_complete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/treeQuestions/dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/treeQuestions/lac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/treeQuestions/traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/treeQuestions/zigzag_traversal.py" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="new questions">
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/book_catalogue/Problem+Statement (2).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/book_catalogue/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/jobScheduling/Problem+Statement (3).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/jobScheduling/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/treeQuestions/left_right_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/complete_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/complete_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/is_complete_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/is_complete_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/lac_leetcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/lac_leetcode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/traversals_bt.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/traversals_bt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,23 +88,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/olx/Downloads/personal/ADT-PYTHON/LLD/Systems/employeeSystem",
+    "last_opened_file_path": "/Users/olx/Downloads/personal/ADT-PYTHON/LLD/Systems/jobScheduling",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LLD/Systems/jobScheduling" />
+      <recent name="$PROJECT_DIR$/LLD/Systems/book_catalogue" />
       <recent name="$PROJECT_DIR$/LLD/Systems/employeeSystem" />
       <recent name="$PROJECT_DIR$/LLD/Systems/TextEditor" />
       <recent name="$PROJECT_DIR$/LLD/Systems/fb_comment" />
-      <recent name="$PROJECT_DIR$/LLD/Systems/SplitWise" />
-      <recent name="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DesignPattern/Patterns" />
@@ -133,53 +114,11 @@
       <recent name="$PROJECT_DIR$/DesignPattern/Proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.traversal">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node">
       <method v="2" />
     </configuration>
-    <configuration name="543_diameter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/Tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Tree/543_diameter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="958_is_tree_complete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/Tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Tree/958_is_tree_complete.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="left_right_view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/treeQuestions/dfs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/treeQuestions/left_right_view.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="m_doctors_n_patients" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,11 +147,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems/employeeSystem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/employeeSystem/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/m_doctors_n_patients.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems/jobScheduling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/jobScheduling/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems/book_catalogue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/book_catalogue/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.m_doctors_n_patients" />
+        <item itemvalue="Python.left_right_view" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.traversal" />
-        <item itemvalue="Python.958_is_tree_complete" />
-        <item itemvalue="Python.dfs" />
-        <item itemvalue="Python.543_diameter" />
-        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -584,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679673567631</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="new questions">
+      <created>1679988723952</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1679988723952</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +621,6 @@
     <MESSAGE value="added backtracking questions" />
     <MESSAGE value="More backtracking questions" />
     <MESSAGE value="able to solve hard geeks questions" />
-    <MESSAGE value="new questions" />
     <MESSAGE value="2-D array questions" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="leetcode two pointers" />
@@ -641,7 +628,8 @@
     <MESSAGE value="new code and changes" />
     <MESSAGE value="formatted" />
     <MESSAGE value="One system and last behavioural pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="One system and last behavioural pattern" />
+    <MESSAGE value="new questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="new questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
