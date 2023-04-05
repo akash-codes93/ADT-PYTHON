@@ -122,10 +122,45 @@ def reverse_in_batch(head: Node, batch_size: int):
             k -= 1
 
     for count, batch in enumerate(batch_end_node):
-        if count+1 == len(batch_end_node):
+        if count + 1 == len(batch_end_node):
             batch[1].next = None
         else:
-            batch[1].next = batch_end_node[count+1][0]
+            batch[1].next = batch_end_node[count + 1][0]
+
+    return new_head
+
+
+def reverse_in_batch_new(head, size):
+    def reverse_ll(sc1, tr1):
+        prev = sc1
+        sc1 = sc1.next
+
+        while sc1 != tr1:
+            p = sc1.next
+            sc1.next = prev
+            prev = sc1
+            sc1 = p
+
+        return prev
+
+    new_head = None
+    count = size
+    sc = tr = head
+
+    while count != 0 and tr is not None:
+
+        tr = tr.next
+        count -= 1
+
+        if count == 0:
+
+            s = reverse_ll(sc, tr)
+
+            if new_head is None:
+                new_head = s
+
+            sc = tr
+            count = size
 
     return new_head
 
@@ -158,7 +193,7 @@ def driver():
         linked_list = SingleLinkedList()
         linked_list.add_nodes(node_values)
 
-        head = reverse_in_batch(linked_list.head, 3)
+        head = reverse_in_batch_new(linked_list.head, 3)
         linked_list.head = head
 
         print('Output: ', end=' ')
