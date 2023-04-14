@@ -41,6 +41,6 @@ class QuickSort:
             self.sort(a, partition_index + 1, right)
 
 
-arr = [5, 3, 1, 6, 4, 2]
+arr = [5, 3, 1, 6, 4, 0]
 QuickSort().sort(arr, 0, 5)
 print(arr)

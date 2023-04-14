@@ -1,5 +1,5 @@
 """
-@url: https://leetcode.com/problems/rotting-oranges/submissions/
+@url: https://leetcode.com/problems/rotting-oranges/
 T: O(M*N)
 S: O(M+N)
 """

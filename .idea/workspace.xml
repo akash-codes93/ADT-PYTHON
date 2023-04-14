@@ -4,20 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="new questions">
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Random/countMinSketch.py" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="Questions and systems">
+      <change afterPath="$PROJECT_DIR$/heap/heap_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/Math/1823_winner_circular_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/Math/492_consruct-a-rectangle.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/Tree/101_symmetric_tree.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/Tree/226_invert_binary_tree.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/Tree/427_quad_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/Tree/type" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/binary_search/69_sqrtx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/treeQuestions/quadTreeCab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/linkedList/203_remove_elem_from_ll.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLD/DesignPatterns/Factories/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Factories/factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLD/DesignPatterns/Strategy/strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Strategy/strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/backtracking/remove_invalid_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/backtracking/remove_invalid_parenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/backtracking/word_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/backtracking/word_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/recursion/balanced_parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/balanced_parentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/recursion/check_subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/check_subsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/recursion/permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/recursion/powerset.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/recursion/powerset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/rotten_tomatoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/rotten_tomatoes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/binary_search/69_sqrtx.js" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/binary_search/69_sqrtx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/reverse_in_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/reverse_in_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/binary_search/type" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/binary_search/type" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/reverse_linked_list_wo_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/reverse_linked_list_wo_stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/heap_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/heap_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/merge_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/quick_sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/leetcode" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -89,30 +99,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/olx/Downloads/personal/ADT-PYTHON/LLD/Systems/Snakes&Ladder",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olx/Downloads/personal/ADT-PYTHON/DP/recursion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DP/recursion" />
       <recent name="$PROJECT_DIR$/LLD/Systems/Snakes&amp;Ladder" />
       <recent name="$PROJECT_DIR$/LLD/Systems/jobScheduling" />
       <recent name="$PROJECT_DIR$/LLD/Systems/book_catalogue" />
       <recent name="$PROJECT_DIR$/LLD/Systems/employeeSystem" />
-      <recent name="$PROJECT_DIR$/LLD/Systems/TextEditor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DesignPattern/Patterns" />
@@ -122,11 +132,11 @@
       <recent name="$PROJECT_DIR$/DesignPattern/Proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.quadTreeCab">
+  <component name="RunManager" selected="Python.quick_sort">
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node">
       <method v="2" />
     </configuration>
-    <configuration name="101_symmetric_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="heap_sort (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Tree/101_symmetric_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/heap_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="69_sqrtx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="heap_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/binary_search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/binary_search/69_sqrtx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/heap_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="countMinSketch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Random" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Random/countMinSketch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/merge_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quadTreeCab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree/treeQuestions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/treeQuestions/quadTreeCab.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/quick_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse_in_batch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="word_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,11 +228,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linked-list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linked-list/reverse_in_batch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/word_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.quadTreeCab" />
-        <item itemvalue="Python.countMinSketch" />
-        <item itemvalue="Python.reverse_in_batch" />
-        <item itemvalue="Python.69_sqrtx" />
-        <item itemvalue="Python.101_symmetric_tree" />
+        <item itemvalue="Python.quick_sort" />
+        <item itemvalue="Python.merge_sort" />
+        <item itemvalue="Python.heap_sort (1)" />
+        <item itemvalue="Python.heap_sort" />
+        <item itemvalue="Python.word_search" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680099555839</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Questions and systems">
+      <created>1680678679627</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1680678679627</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Partially persistent dictionary (update length)" />
     <MESSAGE value="Produce Number to spelling." />
     <MESSAGE value="Some minor bug fixes" />
     <MESSAGE value="Bug fixes and improvements." />
@@ -644,7 +660,8 @@
     <MESSAGE value="formatted" />
     <MESSAGE value="One system and last behavioural pattern" />
     <MESSAGE value="new questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="new questions" />
+    <MESSAGE value="Questions and systems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Questions and systems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,13 +6,15 @@ def heap_sort(array):
     for element in array:
         heappush(heap, element)
 
-    ordered = []
+    print(heap)
 
-    # While we have elements left in the heap
-    while heap:
-        ordered.append(heappop(heap))
-
-    return ordered
+    # ordered = []
+    #
+    # # While we have elements left in the heap
+    # while heap:
+    #     ordered.append(heappop(heap))
+    #
+    # return ordered
 
 
 array = [13, 21, 15, 5, 26, 4, 17, 18, 24, 2]

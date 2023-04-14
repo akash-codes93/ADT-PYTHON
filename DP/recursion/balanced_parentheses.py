@@ -37,7 +37,39 @@ class Solution:
         return result
 
 
-balanced_parentheses = Solution().parentheses
-print(
-    balanced_parentheses(k=4)
-)
+
+
+# better
+# recursion leap of faith
+
+def generate_parenthesis(n) -> set:
+    if n == 1:
+        return {"()"}
+
+    # faith that it gives correct output
+    rem = generate_parenthesis(n-1)
+
+    o = set()
+    for each in rem:
+        o.add(
+            each + '()'
+        )
+
+        o.add(
+            '(' + each + ')'
+        )
+        o.add(
+            '()' + each
+        )
+
+    return o
+
+
+# balanced_parentheses = Solution().parentheses
+# print(
+#     balanced_parentheses(k=4)
+# )
+
+
+op = generate_parenthesis(4)
+print(op)

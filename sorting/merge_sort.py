@@ -51,13 +51,52 @@ def divide(arr, l, r):
     return arr
 
 
+# def merge_sort(arr):
+#
+#     return divide(arr, 0, len(arr)-1)
+
+def merge_two_sorted_array(arr1, arr2):
+    print(arr1, arr2)
+    arr = []
+    i, j = 0, 0
+
+    while(i<len(arr1) or j < len(arr2)):
+        largest = float('inf')
+
+        if (i < len(arr1) and arr1[i] < largest):
+            largest = arr1[i]
+
+        if (j < len(arr2) and arr2[j] < largest):
+            largest = arr2[j]
+
+        arr.append(largest)
+
+        if i < len(arr1) and largest == arr1[i]:
+            i += 1
+
+        elif j < len(arr2) and largest == arr2[j]:
+            j += 1
+    print(arr)
+    return arr
+
+
 def merge_sort(arr):
 
-    return divide(arr, 0, len(arr)-1)
+    if len(arr) == 1:
+        return arr
+
+    l = len(arr) // 2
+
+    arr1 = merge_sort(arr[0: l])
+    arr2 = merge_sort(arr[l:])
+
+    return merge_two_sorted_array(arr1, arr2)
+
+
 
 
 if __name__ == '__main__':
-    sorted_arr = merge_sort([5, 4, 2, 6, 1, 3, 5])
+    sorted_arr = merge_sort([45, 5,45, 4,30, 2, 6, 1,500, 3, 5])
     print(sorted_arr)
     # print(divide([5, 4, 2, 6, 1, 3, 5], 0, 6))
     # print(conquer([5], [4]))

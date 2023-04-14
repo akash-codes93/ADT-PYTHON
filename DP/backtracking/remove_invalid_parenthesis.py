@@ -24,30 +24,51 @@ class Solution:
 
             if output < 0:
                 return False
-        return output == 0
+    #     return output == 0
+    #
+    # def invalid_parenthesis(self, string, removes, output):
+    #     if removes == 0:
+    #         status = self.check_balanced(string)
+    #         # print(string, status)
+    #         if status:
+    #             output.append(status)
+    #             print(string)
+    #             return
+    #
+    #     for i in range(0, len(string)):
+    #         if string[i] in ['(', ')']:
+    #             remaining_str = string[:i] + string[i + 1:]
+    #             self.invalid_parenthesis(remaining_str, removes - 1, output)
+    #
+    # def driver(self, string):
+    #     for i in range(0, len(string)):
+    #         output = []
+    #         self.invalid_parenthesis(string, i, output)
+    #
+    #         if any(output):
+    #             break
 
-    def invalid_parenthesis(self, string, removes, output):
-
-        if removes == 0:
-            status = self.check_balanced(string)
-            # print(string, status)
-            if status:
-                output.append(status)
-                print(string)
-                return
+    def invalid_parenthesis(self, string, output):
+        status = self.check_balanced(string)
+        # print(string, status)
+        if status:
+            if string not in output:
+                output.append(string)
+            # print(string)
+            return
 
         for i in range(0, len(string)):
-            if string[i] in ['(', ')']:
-                remaining_str = string[:i] + string[i + 1:]
-                self.invalid_parenthesis(remaining_str, removes - 1, output)
 
-    def driver(self, string):
-        for i in range(0, len(string)):
-            output = []
-            self.invalid_parenthesis(string, i, output)
+            for j in [0, 1]:
 
-            if any(output):
-                break
+                if j:
+                    remaining_str = string[:i] + string[i + 1:]
+                    self.invalid_parenthesis(remaining_str, output)
+                else:
+                    self.invalid_parenthesis(string, output)
 
+# Solution().driver("()())()")
 
-Solution().driver("()())()")
+opt = []
+Solution().invalid_parenthesis("()())()", opt)
+print(opt)

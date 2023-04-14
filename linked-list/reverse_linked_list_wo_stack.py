@@ -58,15 +58,13 @@ class SingleLinkedList:
 def reverse_list(head_node: Node):
 
     travel = head_node
-    previous = head_node
+    previous = None
 
     if travel is None:
         return travel
 
     if travel.next is None:
         return travel
-
-    travel = travel.next
 
     while travel is not None:
         p = travel.next
@@ -76,7 +74,6 @@ def reverse_list(head_node: Node):
 
         travel = p
 
-    head_node.next = None
     return previous
 
 

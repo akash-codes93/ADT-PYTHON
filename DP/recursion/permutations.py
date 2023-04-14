@@ -64,6 +64,51 @@ class Permutations:
 # res = permutations_self([3, 2, 5, 8], k=3)
 # print(res)
 
-anagrams = Permutations().anagrams
-op = anagrams("god")
+# better
+def generate_anagrams(string):
+
+    if len(string) == 1:
+        return [string]
+
+    start = string[0]
+
+    # trust my function that it will give correct output
+    remaining = generate_anagrams(string[1:])
+
+    output = []
+    for each in remaining:
+        for i in range(0, len(each) + 1):
+
+            output.append(
+                each[:i] + start + each[i:]
+            )
+
+    return output
+
+
+def generate_anagrams_backtrack(nums):
+
+    main_output = []
+    nums = list(nums)
+
+    def looper(i):
+
+        if i == len(nums):
+            main_output.append("".join(nums))
+            return
+        for j in range(i, len(nums)):
+            nums[j], nums[i] = nums[i], nums[j]
+            looper(i + 1)
+            # backtrack
+            nums[j], nums[i] = nums[i], nums[j]
+
+    looper(0)
+
+    return main_output
+
+
+# anagrams = Permutations().anagrams
+# op = anagrams("god")
+# op = generate_anagrams("god")
+op = generate_anagrams_backtrack("god")
 print(op)
