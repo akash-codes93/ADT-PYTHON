@@ -2,6 +2,9 @@
 @url: https://leetcode.com/problems/word-search/
 
 for every element you have to call the recursion element.
+
+optimisation instead of storing path we can change the element to .
+in this way space complexity will be reduced.
 """
 from typing import List
 

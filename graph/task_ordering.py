@@ -1,5 +1,5 @@
 """
-@url: https://leetcode.com/problems/course-schedule/submissions/
+@url: https://leetcode.com/problems/course-schedule/
 """
 
 from itertools import permutations
@@ -39,6 +39,8 @@ def kahns_algorithm(v, e):
     for tail in e:
         for head in e[tail]:
             link(head, tail)
+
+    print(e_out, e_in)
 
     l = []
     # to find vertices with no dependencies -- initial queue

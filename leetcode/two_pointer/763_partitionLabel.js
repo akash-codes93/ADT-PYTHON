@@ -16,6 +16,7 @@ var partitionLabels = function (s) {
             dict[letter] = i
         }
     }
+    console.log(dict)
     var output = []
     var size = 0
     var end = 0
@@ -39,5 +40,6 @@ var partitionLabels = function (s) {
 
 }
 
+o = partitionLabels("ababcbacadefegdehijhklij")
 o = partitionLabels("eccbbbbdec")
 console.log(o)

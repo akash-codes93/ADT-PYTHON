@@ -110,5 +110,6 @@ def generate_anagrams_backtrack(nums):
 # anagrams = Permutations().anagrams
 # op = anagrams("god")
 # op = generate_anagrams("god")
-op = generate_anagrams_backtrack("god")
+# op = generate_anagrams_backtrack("god")
+op = generate_anagrams_backtrack("aab")
 print(op)

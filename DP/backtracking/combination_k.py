@@ -50,5 +50,6 @@ class Solution:
         a = [-1] * k
         self.combination_k(a, 0, arr, 0)
 
+
 array = [1, 2, 1]
 Solution().trigger(list(sorted(array)), 2)

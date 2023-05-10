@@ -38,11 +38,14 @@ class Solution:
             remaining_str = string[i + 1:]
 
             self.get_association(remaining_str, pattern, p + 1, mapping)
-
             mapping.pop(pattern[p])
 
 
-# Solution().get_association("akashisakash", "aia", 0, {})
+# Solution().get_association("akisak", "pqp", 0, {})
+# Solution().get_association("akashisisakash", "aiia", 0, {})
+# Solution().get_association("tree1treetree", "aaa", 0, {})
+Solution().get_association("akisak", "pqp", 0, {})
+
 
 '''
 python -c " 
