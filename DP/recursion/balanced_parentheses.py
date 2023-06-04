@@ -43,6 +43,12 @@ class Solution:
 # recursion leap of faith
 
 def generate_parenthesis(n) -> set:
+
+    """
+    not correct try for 4
+    :param n:
+    :return:
+    """
     if n == 1:
         return {"()"}
 
@@ -65,11 +71,14 @@ def generate_parenthesis(n) -> set:
     return o
 
 
-# balanced_parentheses = Solution().parentheses
-# print(
-#     balanced_parentheses(k=4)
-# )
+balanced_parentheses = Solution().parentheses
+print(
+    balanced_parentheses(k=4)
+)
 
 
 op = generate_parenthesis(4)
 print(op)
+
+# ["(())()()","((()))()","()(())()","(()()())","(()(()))","(((())))","()()()()","()((()))","()()(())","((()()))","()(()())","(()())()","((())())"]
+# ["(((())))","((()()))","((())())","((()))()","(()(()))","(()()())","(()())()","(())(())","(())()()","()((()))","()(()())","()(())()","()()(())","()()()()"]
