@@ -1,15 +1,3 @@
-# import asyncio
-#
-# loop = asyncio.new_event_loop()
-#
-# task1 = loop.create_task(cor)
-#
-# loop.run_until_complete(asyncio.wait([task1]))
-#
-# task1.result()
-#
-# loop.close()
-
 import threading
 
 
@@ -38,8 +26,6 @@ def print_odd():
         event_even.set()
         event_odd.clear()
         event_odd.wait()
-
-    event_even.set()
 
 
 if __name__ == "__main__":
