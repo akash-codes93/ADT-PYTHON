@@ -2,6 +2,7 @@ import logging
 
 logging.basicConfig(level=logging.DEBUG)
 
+
 class BaseLogger:
 
     def __init__(self):
@@ -18,6 +19,7 @@ class BaseLogger:
         if self.next_logger:
             self.next_logger.log(msg, log_type)
 
+
 class InfoLogger(BaseLogger):
     type = logging.INFO
 
@@ -26,6 +28,7 @@ class InfoLogger(BaseLogger):
             logging.info(msg)
         super().log(msg, log_type)
 
+
 class DEBUGLogger(BaseLogger):
     type = logging.DEBUG
 
@@ -33,6 +36,7 @@ class DEBUGLogger(BaseLogger):
         if log_type == self.type:
             logging.debug(msg)
         super().log(msg, log_type)
+
 
 if __name__ == '__main__':
     logger = BaseLogger()

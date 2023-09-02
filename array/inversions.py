@@ -120,3 +120,68 @@ print(f)
 # merge([7, 8, 18, 24, 33, 59, 78, 80, 85, 96, 100, 106, 116, 122, 137, 171, 179, 179, 181, 199, 241, 242, 250, 251, 259, 297, 383, 388, 397, 405, 417, 461], [15, 18, 56, 66, 78, 82, 94, 109, 130, 145, 152, 169, 173, 177, 179, 192, 230, 244, 249, 254, 285, 292, 375, 400, 417, 423, 430, 447, 474, 487, 496])
 
 merge([24,24,24,], [23,24,24])
+
+
+class Node:
+    def __init__(self, starttime, endtime):
+        self.starttime = starttime
+        self.endtime = endtime
+
+    def __lt__(self, other):
+        if self.endtime < other.endtime:
+            return True
+        elif self.starttime < other.starttime:
+            return True
+        return False
+
+
+def min_heapify(arr, i, heap_size):
+    left = 2 * i + 1
+    right = 2 * i + 2
+
+    smallest = i
+    if left < heap_size and arr[left] < arr[smallest]:
+        smallest = left
+
+    if right < heap_size and arr[right] < arr[smallest]:
+        smallest = right
+
+    if smallest != i:
+        arr[smallest], arr[i] = arr[i], arr[smallest]
+        min_heapify(arr, smallest, heap_size)
+
+
+def build_heap(arr):
+    for i in range(math.floor(len(arr) / 2) - 1, -1, -1):
+        min_heapify(arr, i, len(arr))
+
+
+class Solution:
+    def maxEvents(self, events: List[List[int]]) -> int:
+
+        arr = []
+        for starttime, endtime in events:
+            arr.append(Node(starttime, endtime))
+
+        build_heap(arr)
+
+        day = 1
+        total = 0
+        while arr:
+
+            node = arr[0]
+            if node.starttime <= day <= node.endtime:
+                total += 1
+                arr[0] = arr[-1]
+                arr.pop()
+                min_heapify(arr, 0, len(arr))
+
+            elif day > node.endtime:
+                arr[0] = arr[-1]
+                arr.pop()
+                min_heapify(arr, 0, len(arr))
+
+            day += 1
+
+        return total
+
