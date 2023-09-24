@@ -34,9 +34,9 @@ class Scheduler():
         heapq.heappush(self.functions, (time_to_execute, f, name))
 
 
-
 def f1(name):
     print("code executed: ", name)
+
 
 scheduler = Scheduler()
 
@@ -44,9 +44,6 @@ scheduler.schedule(f1, 10, 10)
 scheduler.schedule(f1, 2, 2)
 scheduler.schedule(f1, 5, 5)
 scheduler.schedule(f1, 3, 3)
-
-
-
 
 
 

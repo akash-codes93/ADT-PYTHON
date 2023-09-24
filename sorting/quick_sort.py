@@ -76,11 +76,9 @@ class QuickSelect:
         if left < right:
             partition_index = self._get_partition_index(a, left, right)
             if partition_index > (left + k - 1):
-                self.select(a, left, partition_index - 1, k)
+                self.select_k(a, left, partition_index - 1, k)
             elif partition_index < (left + k - 1):
-                self.select(a, partition_index + 1, right,  left + k - partition_index - 1)
-
-
+                self.select_k(a, partition_index + 1, right,  left + k - partition_index - 1)
 
 arr = [5, 1, 3, 6, 4, 0]
 # QuickSort().sort(arr, 0, 5)
