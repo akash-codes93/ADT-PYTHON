@@ -49,5 +49,5 @@ class Board:
             if self.board[i][self.size-i-1] == '-' or self.board[i][self.size-i-1] != piecetype.value:
                 diagonal_match_right = False
 
-        return row_match or col_match or diagonal_match_left or diagonal_match_right
-
+        # return row_match or col_match or diagonal_match_left or diagonal_match_right
+        return any([row_match, col_match, diagonal_match_right, diagonal_match_left])

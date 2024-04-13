@@ -9,7 +9,6 @@ func reservoirSampling(stream []int, k int) []int {
 	// return k elements reservoir from stream of elements
 	if k > len(stream) {
 		return stream
-
 	}
 
 	reservoir := stream[0:k]
@@ -19,11 +18,8 @@ func reservoirSampling(stream []int, k int) []int {
 		if j < k {
 			reservoir[j] = stream[i]
 		}
-
 	}
-
 	return reservoir
-
 }
 
 func main() {
