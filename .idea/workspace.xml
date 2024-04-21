@@ -4,58 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="added questions">
-      <change afterPath="$PROJECT_DIR$/DP/backtracking/count_all_seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Singleton/twisted_singleton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/DesignFileSystem[CompositeDesignPattern].py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD/Systems/DesignLogger[ChainOfResponsibility].py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/inversions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/128_longest_consecutive_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic programming/115_count_all_seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic programming/2328_no_of_strictly_inc_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic programming/329_increasing_matrix_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic programming/673_number_of_lis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic programming/meetings_rooms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Math/31_next_permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Math/60_permutation_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Tree/1376_time_to_inform_all_employees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/array/229_majority_element-ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/array/2448_make_array_equal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/array/268_287_442_swap_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/array/48_rotation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/array/57_insert_intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/array/73_set_matrix_zero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/design/303_307_range_sum_query_mutable_immutable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/design/528_random_pick_with_weight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/graph/210_course_schedule_ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/graph/417_pacific_atlanta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/graph/547_number_of_provices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/graph/733_flood_fill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/heap/2462_costs_to_hire_k_workers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/heap/502_ipo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/linkedList/143_reorder_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/merge_sort/315_number_of_bits_after_Self.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/merge_sort/inversions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/prefixSum/523_contiguous_subarray_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/prefixSum/525_continuous_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/string/483_567_find_all_anagrams_in_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/string/60_permutation_string.py" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="added a dip example">
+      <change afterPath="$PROJECT_DIR$/dailyCodingProblem/1661_bloom_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyCodingProblem/debounce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ADT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumpyPandas/Numpy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NumpyPandas/Numpy.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumpyPandas/Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NumpyPandas/Pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/print_event_odd_on_diff_threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random/print_event_odd_on_diff_threads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Dynamic programming/type" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Dynamic programming/type" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Math/type" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Math/type" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/binary_search/35_searchInsertPosition.js" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/binary_search/35_searchInsertPosition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/graph/133_clone_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/graph/130_surrounded_region.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/heap/23_merge_k_sorted_linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/heap/23_merge_k_sorted_linkedlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/heap/295_median_from_data_stream.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/heap/k_closest_points_to_origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/heap/973_k_closest_points_to_origin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/prefixSum/523_continuousSubarraySum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/prefixSum/type" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/prefixSum/type" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/sliding_window/483_567_find_all_anagrams_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/sliding_window/483_567_find_all_anagrams_in_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/string/1044_longest_repeated_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/string/1044_longest_repeated_substring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/quick_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/dip_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/dip_order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +39,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/.conda/envs/ADT-PYTHON/lib/python3.8/asyncio/windows_events.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.conda/envs/ADT-PYTHON/lib/python3.8/enum.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/array/34_searchRange.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/array/49_anagrams.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/graph/bellmanford.py" root0="FORCE_HIGHLIGHTING" />
@@ -96,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/heap/priorityQueue.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sorting/heap_sort.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sorting/quick_sort.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/anaconda3/envs/HelloWorld/lib/python3.11/abc.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -106,6 +60,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="1gN3CUlvohrwa7m5YSYCMiFpga4" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -135,13 +92,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/olx/Downloads/personal/ADT-PYTHON/leetcode/string",
+    "last_opened_file_path": "/Users/akashgupta/Downloads/projects/ADT-PYTHON",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -161,50 +118,8 @@
       <recent name="$PROJECT_DIR$/DesignPattern/ChainOfResponsibility" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DesignFileSystem[CompositeDesignPattern]">
+  <component name="RunManager" selected="Python.dip_order">
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node">
-      <method v="2" />
-    </configuration>
-    <configuration name="2462_costs_to_hire_k_workers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/heap" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/heap/2462_costs_to_hire_k_workers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="73_set_matrix_zero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ADT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/array/73_set_matrix_zero.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="DesignFileSystem[CompositeDesignPattern]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -228,7 +143,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DesignLogger[ChainOfResponsibility]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dip_order" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/DesignPatterns/SOLID" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/dip_order.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/DesignPatterns/Factories" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/DesignPatterns/Factories/factory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="job_scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,7 +197,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/DesignLogger[ChainOfResponsibility].py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/job_scheduler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="method_chain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,11 +214,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/DesignPatterns/ChainOfResponsibility" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/DesignPatterns/ChainOfResponsibility/method_chain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/sudoku.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dip_order" />
+        <item itemvalue="Python.job_scheduler" />
+        <item itemvalue="Python.sudoku" />
+        <item itemvalue="Python.factory" />
         <item itemvalue="Python.DesignFileSystem[CompositeDesignPattern]" />
-        <item itemvalue="Python.73_set_matrix_zero" />
-        <item itemvalue="Python.DesignLogger[ChainOfResponsibility]" />
-        <item itemvalue="Python.method_chain" />
-        <item itemvalue="Python.2462_costs_to_hire_k_workers" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +597,7 @@
       <option name="project" value="LOCAL" />
       <updated>1681484562549</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,8 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Some minor bug fixes" />
-    <MESSAGE value="Bug fixes and improvements." />
     <MESSAGE value="ppdict has improvements and graph implementations" />
     <MESSAGE value="new implementation of trees and traversal" />
     <MESSAGE value="new implementations" />
@@ -697,7 +652,9 @@
     <MESSAGE value="new questions" />
     <MESSAGE value="Questions and systems" />
     <MESSAGE value="added questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added questions" />
+    <MESSAGE value="added reservoir sampling" />
+    <MESSAGE value="added a dip example" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a dip example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

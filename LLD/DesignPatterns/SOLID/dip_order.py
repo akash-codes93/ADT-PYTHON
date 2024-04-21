@@ -95,7 +95,7 @@ order_list = [
         "weight": 5
     },
     {
-        "urgent": False,
+        "urgent": True,
         "distance": 1100,
         "weight": 5
     }
@@ -105,5 +105,5 @@ for each_order in order_list:
     order_obj = Order(**each_order)
     transporter = Transporter.get_transporter(order_obj)
     print("-" * 20)
-    print(order_obj, end=" ")
+    print(order_obj, end=" || ")
     transporter.transport()
