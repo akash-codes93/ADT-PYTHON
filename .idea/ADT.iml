@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LLD/Systems/LLDExamples/example-codes/parking-lot" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="HelloWorld" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="test_3_10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="General" />
   </component>

@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="added a dip example">
-      <change afterPath="$PROJECT_DIR$/dailyCodingProblem/1661_bloom_filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dailyCodingProblem/debounce.py" afterDir="false" />
+    <list default="true" id="a5985dd2-9c30-4db9-835a-d81a775361bb" name="Default" comment="added a stack question">
+      <change afterPath="$PROJECT_DIR$/DP/collatz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/SplitWise/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/elevator_system/elevator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/elevator_system/elevator_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/elevator_system/req.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD/Systems/elevator_system/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyCodingProblem/debounce_queue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ADT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADT.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/dip_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/dip_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD/DesignPatterns/Flyweight/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/DesignPatterns/Flyweight/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD/Systems/Checkout/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LLD/Systems/Checkout/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/repeating_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/repeating_strings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +37,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;akash-pocketfm&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -38,6 +51,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/akash-codes93/ADT-PYTHON.git&quot;,
+    &quot;accountId&quot;: &quot;dcecff8f-1bec-4446-99d6-aedfd7585e2b&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/array/34_searchRange.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/array/49_anagrams.py" root0="FORCE_HIGHLIGHTING" />
@@ -85,23 +104,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/akashgupta/Downloads/projects/ADT-PYTHON",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.cart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.collatz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.debounce_queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.elevator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.elevator_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.repeating_strings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/akashgupta/projects/ADT-PYTHON&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/leetcode/string" />
@@ -118,23 +144,24 @@
       <recent name="$PROJECT_DIR$/DesignPattern/ChainOfResponsibility" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dip_order">
+  <component name="RunManager" selected="Python.elevator_manager">
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node">
       <method v="2" />
     </configuration>
-    <configuration name="DesignFileSystem[CompositeDesignPattern]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems/SplitWise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/DesignFileSystem[CompositeDesignPattern].py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/SplitWise/code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,19 +170,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dip_order" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="debounce_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/DesignPatterns/SOLID" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dailyCodingProblem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/DesignPatterns/SOLID/dip_order.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dailyCodingProblem/debounce_queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,19 +192,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="elevator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/DesignPatterns/Factories" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems/elevator_system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/DesignPatterns/Factories/factory.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/elevator_system/elevator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,19 +214,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="job_scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="elevator_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LLD/Systems/elevator_system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/job_scheduler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LLD/Systems/elevator_system/elevator_manager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,19 +236,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="repeating_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADT" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/backtracking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/backtracking/sudoku.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack/repeating_strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,13 +260,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dip_order" />
-        <item itemvalue="Python.job_scheduler" />
-        <item itemvalue="Python.sudoku" />
-        <item itemvalue="Python.factory" />
-        <item itemvalue="Python.DesignFileSystem[CompositeDesignPattern]" />
+        <item itemvalue="Python.elevator_manager" />
+        <item itemvalue="Python.elevator" />
+        <item itemvalue="Python.debounce_queue" />
+        <item itemvalue="Python.code" />
+        <item itemvalue="Python.repeating_strings" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -597,7 +635,7 @@
       <option name="project" value="LOCAL" />
       <updated>1681484562549</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +667,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ppdict has improvements and graph implementations" />
     <MESSAGE value="new implementation of trees and traversal" />
     <MESSAGE value="new implementations" />
     <MESSAGE value="new problem solved and old code test cases covered" />
@@ -654,7 +691,8 @@
     <MESSAGE value="added questions" />
     <MESSAGE value="added reservoir sampling" />
     <MESSAGE value="added a dip example" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a dip example" />
+    <MESSAGE value="added a stack question" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a stack question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,22 @@
+The elevator system should consist of multiple elevators serving multiple floors.
+Each elevator should have a capacity limit and should not exceed it.
+Users should be able to request an elevator from any floor and select a destination floor.
+The elevator system should efficiently handle user requests and optimize the movement of elevators to minimize waiting time.
+The system should prioritize requests based on the direction of travel and the proximity of the elevators to the requested floor.
+The elevators should be able to handle multiple requests concurrently and process them in an optimal order.
+The system should ensure thread safety and prevent race conditions when multiple threads interact with the elevators.
+
+Assumptions
+    - Every elevator takes 1 sec to move to the next floor
+    - elevator takes requests
+    -
+    - fulfills requests
+
+    - Note treating a case when elevator is currently full at this moment but becomes empty before reaching the requested floor
+    - fetching optimal elevator will be simple - traverse all the elevators and find the nearest empty elevator moving in that direction (is stationary case)
+    - if a lift is assigned to a user it will not be change
+
+    - keep data in elevator class :- floor to users
+        whenever a floor comes remove the users
+    - upcoming requests
+          - floor to user
